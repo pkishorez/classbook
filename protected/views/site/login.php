@@ -109,7 +109,7 @@
 								</tr>
 								<tr>
 								<td>
-									<input class="input_text2" onblur="is_Equal(this)" type="text" id="rfb_id" name="Register[reidno]" value="Re Enter USER ID" placeholder="">
+									<input class="input_text2" onblur="is_Equal(this)" type="text" id="rfb_id" name="Register[reidno]" value="Re Enter USER ID"  placeholder="">
 									</td>
 								</tr>
 								<tr>
