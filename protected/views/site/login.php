@@ -104,12 +104,12 @@
 							</tr>
 							<tr>
 								<td>
-									<input class="input_text2" type="text" onblur="is_Id(this)" id="fb_id" name="Register[idno]" placeholder="" value="University Id">
+									<input class="input_text2" type="text" onblur="is_Id(this)" id="fb_id" name="Register[idno]" placeholder="" value="USER ID">
 									</td>
 								</tr>
 								<tr>
 								<td>
-									<input class="input_text2" onblur="is_Equal(this)" type="text" id="rfb_id" name="Register[reidno]" value="Re Enter University Id" placeholder="">
+									<input class="input_text2" onblur="is_Equal(this)" type="text" id="rfb_id" name="Register[reidno]" value="Re Enter USER ID" placeholder="">
 									</td>
 								</tr>
 								<tr>
