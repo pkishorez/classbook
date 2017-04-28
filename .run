@@ -1,1 +1,1 @@
-/opt/lampp/htdocs/classbook/node-v0.10.26-linux-x86/bin/node /opt/lampp/htdocs/classbook/node-v0.10.26-linux-x86/bin/chatapp/server.js
+nodejs /opt/lampp/htdocs/classbook/node-v0.10.26-linux-x86/bin/chatapp/server.js
