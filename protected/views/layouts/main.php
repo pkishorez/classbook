@@ -20,7 +20,7 @@
 <!--	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/test.css" />-->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/css/font-awesome.min.css" />
 	<?php if (!Yii::app()->user->isGuest):?>
-		<script type="text/javascript" src="http://localhost:3333/socket.io/socket.io.js"></script>
+		<script type="text/javascript" src="http://alumnies.com:3333/socket.io/socket.io.js"></script>
 	<script type="text/javascript">
 	<?php
 		$user=  Yii::app()->user->id;
