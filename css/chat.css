@@ -1,0 +1,218 @@
+/* 
+    Created on : Mar 13, 2014, 9:42:21 PM
+    Author     : kishore
+*/
+/* line 21, classbook/sass/chat.scss */
+.chat .online_list {
+  padding-top: 50px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  width: 210px;
+  height: 100%;
+  overflow: auto;
+  background-color: #F2F4F8;
+  border: 1px solid #d1d1d1; }
+  /* line 32, classbook/sass/chat.scss */
+  .chat .online_list .unit {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 30px;
+    padding: 2px 5px;
+    color: #3b5998;
+    cursor: pointer; }
+    /* line 40, classbook/sass/chat.scss */
+    .chat .online_list .unit .prof_image {
+      display: block;
+      float: left;
+      width: 30px;
+      height: 30px;
+      margin-right: 5px; }
+    /* line 47, classbook/sass/chat.scss */
+    .chat .online_list .unit span {
+      display: table-cell;
+      vertical-align: middle;
+      height: 30px;
+      text-align: left; }
+    /* line 53, classbook/sass/chat.scss */
+    .chat .online_list .unit div {
+      float: right; }
+    /* line 56, classbook/sass/chat.scss */
+    .chat .online_list .unit .status {
+      display: table-cell;
+      height: 30px;
+      vertical-align: middle;
+      color: green; }
+    /* line 62, classbook/sass/chat.scss */
+    .chat .online_list .unit .status.offline {
+      color: red; }
+  /* line 66, classbook/sass/chat.scss */
+  .chat .online_list .unit:hover {
+    background-color: #e0e4ee;
+    color: black; }
+  /* line 70, classbook/sass/chat.scss */
+  .chat .online_list .notify {
+    font-weight: 900;
+    color: red; }
+/* line 81, classbook/sass/chat.scss */
+.chat #chatinstances {
+  position: fixed;
+  bottom: 0px;
+  right: 0px; }
+/* line 86, classbook/sass/chat.scss */
+.chat .firstChild {
+  width: 210px;
+  margin-right: 0px; }
+/* line 90, classbook/sass/chat.scss */
+.chat .minimized {
+  height: auto;
+  width: auto;
+  position: relative;
+  top: 255px; }
+/* line 96, classbook/sass/chat.scss */
+.chat .chat_instance {
+  margin-right: 10px;
+  float: right;
+  background-color: #edeff4;
+  border: 1px solid #d1d1d1; }
+  /* line 101, classbook/sass/chat.scss */
+  .chat .chat_instance .max {
+    width: 260px;
+    height: 280px; }
+    /* line 104, classbook/sass/chat.scss */
+    .chat .chat_instance .max .head {
+      cursor: default;
+      background-color: #4d68a2;
+      height: 25px; }
+      /* line 108, classbook/sass/chat.scss */
+      .chat .chat_instance .max .head .user {
+        display: table-cell;
+        height: 25px;
+        vertical-align: middle;
+        color: white;
+        font-size: 11px;
+        font-weight: 900;
+        padding-left: 5px; }
+      /* line 117, classbook/sass/chat.scss */
+      .chat .chat_instance .max .head .user > span {
+        cursor: pointer; }
+      /* line 120, classbook/sass/chat.scss */
+      .chat .chat_instance .max .head .user > span:hover {
+        opacity: 0.8;
+        text-decoration: underline; }
+      /* line 125, classbook/sass/chat.scss */
+      .chat .chat_instance .max .head .close {
+        color: #acacac;
+        float: right;
+        text-align: center;
+        cursor: default;
+        margin-right: 5px;
+        height: 25px; }
+      /* line 134, classbook/sass/chat.scss */
+      .chat .chat_instance .max .head .close:hover {
+        color: white; }
+      /* line 138, classbook/sass/chat.scss */
+      .chat .chat_instance .max .head .close span {
+        display: table-cell;
+        height: 25px;
+        vertical-align: middle;
+        font-size: 15px;
+        padding-left: 12px;
+        font-weight: 900; }
+    /* line 147, classbook/sass/chat.scss */
+    .chat .chat_instance .max .head:hover {
+      opacity: 0.9; }
+    /* line 150, classbook/sass/chat.scss */
+    .chat .chat_instance .max .body {
+      height: 230px;
+      overflow: auto;
+      text-align: center; }
+      /* line 154, classbook/sass/chat.scss */
+      .chat .chat_instance .max .body .loading {
+        margin-top: 10px;
+        width: 10px;
+        height: 10px; }
+      /* line 159, classbook/sass/chat.scss */
+      .chat .chat_instance .max .body .messages {
+        margin-bottom: 20px; }
+        /* line 161, classbook/sass/chat.scss */
+        .chat .chat_instance .max .body .messages .unit {
+          margin-top: 5px; }
+          /* line 163, classbook/sass/chat.scss */
+          .chat .chat_instance .max .body .messages .unit .from_img {
+            width: 35px;
+            height: 35px;
+            padding: 0px 5px 0px 5px;
+            float: left; }
+          /* line 169, classbook/sass/chat.scss */
+          .chat .chat_instance .max .body .messages .unit .cur_user {
+            width: 10px;
+            height: 10px;
+            padding-top: 5px; }
+          /* line 174, classbook/sass/chat.scss */
+          .chat .chat_instance .max .body .messages .unit .message {
+            text-align: left;
+            max-width: 170px;
+            word-wrap: break-word;
+            border-radius: 5px;
+            display: table-cell;
+            font-size: 11px;
+            background-color: white;
+            padding: 5px 10px;
+            border-right: 5px solid #edeff4; }
+          /* line 185, classbook/sass/chat.scss */
+          .chat .chat_instance .max .body .messages .unit .message_highlight {
+            background-color: white; }
+        /* line 190, classbook/sass/chat.scss */
+        .chat .chat_instance .max .body .messages .curUser .message {
+          max-width: 200px; }
+      /* line 195, classbook/sass/chat.scss */
+      .chat .chat_instance .max .body .status {
+        opacity: 0;
+        float: right;
+        font-size: 11px;
+        color: #898f9c;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        margin-right: 10px; }
+    /* line 205, classbook/sass/chat.scss */
+    .chat .chat_instance .max .chat_post {
+      background-color: white; }
+      /* line 207, classbook/sass/chat.scss */
+      .chat .chat_instance .max .chat_post textarea {
+        position: absolute;
+        bottom: 0px;
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 11px;
+        padding: 3px;
+        border: 1px solid #eaeaea;
+        resize: none;
+        width: 232px;
+        min-height: 23px;
+        height: 23px;
+        overflow: hidden; }
+  /* line 223, classbook/sass/chat.scss */
+  .chat .chat_instance .min {
+    float: right;
+    cursor: pointer;
+    display: none;
+    min-width: 100px;
+    height: 25px;
+    padding: 5px 10px;
+    background-color: #edeff4; }
+    /* line 231, classbook/sass/chat.scss */
+    .chat .chat_instance .min span[data-h] {
+      color: #3b5998;
+      font-size: 11px;
+      font-weight: 900; }
+    /* line 236, classbook/sass/chat.scss */
+    .chat .chat_instance .min i {
+      color: #cdcdcd;
+      float: right; }
+    /* line 240, classbook/sass/chat.scss */
+    .chat .chat_instance .min i:hover {
+      color: black; }
+  /* line 244, classbook/sass/chat.scss */
+  .chat .chat_instance .min:hover {
+    background-color: #eaeaea; }

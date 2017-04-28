@@ -1,0 +1,2 @@
+sudo /opt/lampp/lampp restart
+sudo /opt/lampp/htdocs/classbook/.run

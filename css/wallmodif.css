@@ -1,0 +1,776 @@
+/* 
+    Created on : Mar 13, 2014, 9:42:21 PM
+    Author     : kishore
+*/
+/* line 20, classbook/sass/wallmodif.scss */
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+  color: #fff;
+  background: #4D68A2;
+  z-index: 110;
+}
+/* line 31, classbook/sass/wallmodif.scss */
+.header .head_body {
+  align: center;
+  position: relative;
+  top: 0px;
+  left: 5%;
+  width: 65%;
+  padding: 10px 0px;
+}
+/* line 40, classbook/sass/wallmodif.scss */
+.header .nav_left {
+  float: left;
+}
+/* line 43, classbook/sass/wallmodif.scss */
+.header .nav_left #search_text {
+  min-width: 300px;
+  width: 500px;
+  margin-left: 15px;
+  border: 1px solid rgba(213, 213, 213, 0.7);
+  height: 20px;
+  border-radius: 0.2em;
+}
+/* line 55, classbook/sass/wallmodif.scss */
+.header .nav_right {
+  float: left;
+  overflow: show;
+}
+/* line 60, classbook/sass/wallmodif.scss */
+.header .nav_right .inner_nav #nav_items {
+  padding-left: 50px;
+}
+/* line 63, classbook/sass/wallmodif.scss */
+.header .nav_right .inner_nav #nav_items td {
+  cursor: pointer;
+}
+/* line 66, classbook/sass/wallmodif.scss */
+.header .nav_right .inner_nav #nav_items td .fa {
+  cursor: pointer;
+}
+/* line 72, classbook/sass/wallmodif.scss */
+.header .nav_right .inner_nav #nav_items .active, .header .nav_right .inner_nav #nav_items .inactive:hover {
+  opacity: 1;
+  color: white;
+}
+/* line 77, classbook/sass/wallmodif.scss */
+.header .nav_right .inner_nav #nav_items .inactive {
+  opacity: 0.5;
+  color: white;
+}
+
+/* line 86, classbook/sass/wallmodif.scss */
+.fa {
+  cursor: default;
+}
+
+/* line 90, classbook/sass/wallmodif.scss */
+.icon_color {
+  color: darkblue;
+}
+
+/* line 95, classbook/sass/wallmodif.scss */
+.update_text {
+  color: #333;
+  margin-top: 30px;
+  font-size: 11px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* line 102, classbook/sass/wallmodif.scss */
+.wall_post {
+  width: 550px;
+  border: 1px solid #e7e1fe;
+  border-top: 0px;
+  margin-bottom: 17px;
+}
+/* line 107, classbook/sass/wallmodif.scss */
+.wall_post #wc_edit {
+  width: 544px;
+  font-family: arial;
+  min-height: 30px;
+  font-size: 12px;
+  padding: 3px;
+  border: 0px;
+  border-top: 1px solid #e7e1fe;
+  resize: none;
+}
+/* line 120, classbook/sass/wallmodif.scss */
+.wall_post #post_images .p_img {
+  position: relative;
+  margin: 3px;
+  float: left;
+  display: inline-block;
+  width: 131.5px;
+  height: 131.5px;
+}
+/* line 127, classbook/sass/wallmodif.scss */
+.wall_post #post_images .p_img .loading {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: 55.75px;
+  left: 55.75px;
+}
+/* line 134, classbook/sass/wallmodif.scss */
+.wall_post #post_images .p_img img {
+  width: 131.5px;
+  height: 131.5px;
+}
+/* line 139, classbook/sass/wallmodif.scss */
+.wall_post #post_images .img_add {
+  display: inline-block;
+  padding: 3px 3px 0px 0px;
+  float: left;
+  cursor: pointer;
+  width: 131.5px;
+  height: 131.5px;
+  margin-bottom: 10px;
+}
+/* line 147, classbook/sass/wallmodif.scss */
+.wall_post #post_images .img_add span {
+  display: table-cell;
+  height: 131.5px;
+  width: 131.5px;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 20px;
+  color: #b1b1b1;
+  background-color: #f0f0f0;
+  border: 1px solid #949494;
+}
+/* line 159, classbook/sass/wallmodif.scss */
+.wall_post #post_images .img_add span:hover {
+  background-color: white;
+}
+/* line 164, classbook/sass/wallmodif.scss */
+.wall_post .footer {
+  width: 550px;
+  display: inline-block;
+  height: 29px;
+  border: none;
+  border-top: 1px solid rgba(210, 210, 210, 0.4);
+  background-color: #f5f5f5;
+  background-color: rgba(240, 240, 240, 0.9);
+}
+/* line 173, classbook/sass/wallmodif.scss */
+.wall_post .footer .post_button {
+  font-size: 11px;
+  float: right;
+  color: #f4f4f4;
+  border: 1px solid darkblue;
+  background-color: #3b5998;
+  margin-right: 10px;
+  margin-top: 3px;
+  margin-bottom: 2px;
+  width: 60px;
+  height: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 0.8;
+}
+/* line 189, classbook/sass/wallmodif.scss */
+.wall_post .footer .Browse_Image {
+  height: 100%;
+  width: 40px;
+  font-size: 15px;
+  text-align: center;
+  border-right: 1px solid rgba(224, 224, 224, 0.9);
+}
+/* line 197, classbook/sass/wallmodif.scss */
+.wall_post .footer .Browse_Image i {
+  font-size: 15px;
+  margin-top: 7px;
+  cursor: pointer;
+}
+
+/* line 208, classbook/sass/wallmodif.scss */
+.processing {
+  opacity: 0.5;
+}
+
+/* line 211, classbook/sass/wallmodif.scss */
+.post {
+  color: #37404e;
+  width: 540px;
+  border: none;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 5px;
+  font-family: arial;
+  background-color: white;
+}
+/* line 224, classbook/sass/wallmodif.scss */
+.post .head .delete {
+  color: #898f9c;
+  display: none;
+  cursor: pointer;
+  float: right;
+}
+/* line 230, classbook/sass/wallmodif.scss */
+.post .head .delete:hover {
+  color: black;
+}
+/* line 233, classbook/sass/wallmodif.scss */
+.post .head .profile_image {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-right: 7px;
+}
+/* line 240, classbook/sass/wallmodif.scss */
+.post .head .details .owner {
+  display: inline-block;
+  font-weight: normal;
+  margin-top: 5px;
+  letter-spacing: 0.3px;
+  color: #3b5998;
+  font-weight: 900;
+}
+/* line 248, classbook/sass/wallmodif.scss */
+.post .head .details .description {
+  color: #898f9c;
+  font-size: 11px;
+}
+/* line 255, classbook/sass/wallmodif.scss */
+.post .body {
+  margin-left: 47px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 510px -5;
+}
+/* line 260, classbook/sass/wallmodif.scss */
+.post .body .content {
+  overflow: hidden;
+  height: auto;
+  word-break: break-all;
+}
+/* line 265, classbook/sass/wallmodif.scss */
+.post .body .collapse {
+  color: darkblue;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 900;
+}
+/* line 271, classbook/sass/wallmodif.scss */
+.post .body .collapse:hover {
+  text-decoration: underline;
+}
+/* line 275, classbook/sass/wallmodif.scss */
+.post .images {
+  margin-top: 5px;
+  margin-left: 47px;
+}
+/* line 278, classbook/sass/wallmodif.scss */
+.post .images img {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+/* line 282, classbook/sass/wallmodif.scss */
+.post .images img:hover {
+  opacity: 0.5;
+}
+/* line 286, classbook/sass/wallmodif.scss */
+.post .images .small {
+  width: 200px;
+  height: 200px;
+}
+/* line 290, classbook/sass/wallmodif.scss */
+.post .images .still_small {
+  width: 140px;
+  height: 140px;
+}
+/* line 294, classbook/sass/wallmodif.scss */
+.post .images .still_small_3 {
+  width: 135px;
+  height: 130px;
+}
+/* line 301, classbook/sass/wallmodif.scss */
+.post .tail {
+  margin-top: 5px;
+  padding: 5px;
+  background-color: #edeff4;
+  margin-left: 47px;
+  width: 488px;
+}
+/* line 307, classbook/sass/wallmodif.scss */
+.post .tail .section {
+  display: none;
+}
+/* line 310, classbook/sass/wallmodif.scss */
+.post .tail hr {
+  width: 100%;
+  margin: 3px 0px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+/* line 317, classbook/sass/wallmodif.scss */
+.post .tail .funcs .option {
+  font-size: 10px;
+  cursor: pointer;
+  color: #3b5998;
+  margin-right: 5px;
+}
+/* line 323, classbook/sass/wallmodif.scss */
+.post .tail .funcs .option:hover {
+  text-decoration: underline;
+  opacity: 0.7;
+}
+/* line 327, classbook/sass/wallmodif.scss */
+.post .tail .funcs .status {
+  color: #898f9c;
+  font-size: 10px;
+}
+/* line 332, classbook/sass/wallmodif.scss */
+.post .tail .view_previous_comments {
+  font-size: 10px;
+}
+/* line 337, classbook/sass/wallmodif.scss */
+.post .tail .comments .comment {
+  margin-bottom: 5px;
+}
+/* line 339, classbook/sass/wallmodif.scss */
+.post .tail .comments .comment .delete {
+  color: #898f9c;
+  display: none;
+  cursor: pointer;
+  float: right;
+}
+/* line 345, classbook/sass/wallmodif.scss */
+.post .tail .comments .comment .delete:hover {
+  color: black;
+}
+/* line 348, classbook/sass/wallmodif.scss */
+.post .tail .comments .comment .prof_image {
+  width: 26.667px;
+  height: 26.667px;
+  margin-right: 7px;
+  float: left;
+}
+/* line 354, classbook/sass/wallmodif.scss */
+.post .tail .comments .comment .content {
+  width: 429.333px;
+  display: table-cell;
+  margin-left: 47px;
+  margin-bottom: 5px;
+  line-height: 15px;
+  font-size: 11px;
+  word-break: break-all;
+}
+/* line 362, classbook/sass/wallmodif.scss */
+.post .tail .comments .comment .content .comment_by {
+  margin-right: 5px;
+  color: #3b5998;
+  font-weight: bolder;
+  font-weight: 900;
+}
+/* line 368, classbook/sass/wallmodif.scss */
+.post .tail .comments .comment .content .image img {
+  margin: 5px 0px;
+  padding: 5px;
+  background-color: white;
+  border: 1px solid black;
+}
+/* line 375, classbook/sass/wallmodif.scss */
+.post .tail .comments .comment .content .funcs .stats {
+  color: #898f9c;
+  font-size: 10px;
+  opacity: 0.7;
+  margin-right: 5px;
+}
+/* line 385, classbook/sass/wallmodif.scss */
+.post .tail .add_comment {
+  position: relative;
+}
+/* line 387, classbook/sass/wallmodif.scss */
+.post .tail .add_comment .image {
+  width: 26.667px;
+  height: 26.667px;
+  float: left;
+  margin-right: 7px;
+}
+/* line 393, classbook/sass/wallmodif.scss */
+.post .tail .add_comment textarea {
+  font-family: arial;
+  font-size: 11px;
+  padding: 5px;
+  border: 1px solid #e7e1fe;
+  resize: none;
+  width: 300px;
+  height: 13px;
+  float: left;
+}
+/* line 403, classbook/sass/wallmodif.scss */
+.post .tail .add_comment .div {
+  height: 23px;
+  border: 1px solid #e7e1fe;
+  border-left: 0px;
+  padding: 0px 5px;
+  float: left;
+  color: #a4a4a4;
+  display: inline-block;
+}
+/* line 412, classbook/sass/wallmodif.scss */
+.post .tail .add_comment .div:hover {
+  color: #8a8a8a;
+}
+/* line 415, classbook/sass/wallmodif.scss */
+.post .tail .add_comment .add_image {
+  height: 23px;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 13px;
+}
+/* line 421, classbook/sass/wallmodif.scss */
+.post .tail .add_comment .comment_image_container {
+  visibility: hidden;
+  margin-left: 33.667px;
+  padding: 5px;
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #e7e1fe;
+  width: 300px;
+}
+/* line 429, classbook/sass/wallmodif.scss */
+.post .tail .add_comment .comment_image_container img {
+  max-width: 100px;
+  max-height: 100px;
+}
+/* line 434, classbook/sass/wallmodif.scss */
+.post .tail .add_comment .blurred {
+  background-color: #fcfcfc;
+}
+
+/* line 441, classbook/sass/wallmodif.scss */
+#flash {
+  display: none;
+  height: 100%;
+  width: 100%;
+  vertical-align: center;
+  /* ZOOMING IMAGE */
+}
+/* line 446, classbook/sass/wallmodif.scss */
+#flash .fadeout {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+/* line 455, classbook/sass/wallmodif.scss */
+#flash .user_action {
+  display: none;
+  margin: auto;
+  position: absolute;
+  height: 100px;
+  width: 200px;
+  background-color: white;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+/* line 464, classbook/sass/wallmodif.scss */
+#flash .user_action .option {
+  display: inline-block;
+  float: left;
+  width: 100px;
+  background-color: white;
+  color: #3b5998;
+  padding: 10px 0px;
+  text-align: center;
+  cursor: pointer;
+}
+/* line 474, classbook/sass/wallmodif.scss */
+#flash .user_action .option:hover {
+  background-color: #3b5998;
+  color: white;
+}
+/* line 478, classbook/sass/wallmodif.scss */
+#flash .user_action .watch {
+  width: 100%;
+}
+/* line 486, classbook/sass/wallmodif.scss */
+#flash #zoomImage {
+  display: none;
+  margin: auto;
+  position: fixed;
+  height: 500px;
+  width: 850px;
+  background-color: black;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+/* line 495, classbook/sass/wallmodif.scss */
+#flash #zoomImage .stats {
+  width: 100px;
+  font-size: 15px;
+  color: white;
+  background-color: black;
+  padding: 5px;
+  position: absolute;
+  bottom: -35 px;
+  left: 375px;
+  font-weight: 900;
+  letter-spacing: 5px;
+}
+/* line 507, classbook/sass/wallmodif.scss */
+#flash #zoomImage .container {
+  position: relative;
+  display: table-cell;
+  height: 500px;
+  vertical-align: middle;
+  font-size: 30px;
+}
+/* line 513, classbook/sass/wallmodif.scss */
+#flash #zoomImage .container .prevImage {
+  padding: 10px;
+  position: absolute;
+  cursor: pointer;
+  top: 235px;
+  left: 10px;
+}
+/* line 520, classbook/sass/wallmodif.scss */
+#flash #zoomImage .container .nextImage {
+  padding: 10px;
+  position: absolute;
+  cursor: pointer;
+  top: 235px;
+  right: 10px;
+}
+/* line 527, classbook/sass/wallmodif.scss */
+#flash #zoomImage .container .nextImage:hover, #flash #zoomImage .container .prevImage:hover {
+  background-color: #bdbdbd;
+}
+/* line 530, classbook/sass/wallmodif.scss */
+#flash #zoomImage .container .nomore {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/*
+Ashok
+*/
+/*
+Ashok
+*/
+/* line 554, classbook/sass/wallmodif.scss */
+.vertical_nav {
+  position: fixed;
+  top: 40px;
+  left: 0px;
+  width: 200px;
+  height: 100%;
+  background-color: #fff;
+  border: none;
+}
+/* line 563, classbook/sass/wallmodif.scss */
+.vertical_nav .panel {
+  display: inline-block;
+  margin-left: 57.143px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  padding: 5px 5px;
+  color: #4D68A2;
+  font-size: 11px;
+  width: 66%;
+}
+/* line 574, classbook/sass/wallmodif.scss */
+.vertical_nav .prof_image {
+  width: 40px;
+  height: 40px;
+  float: left;
+  cursor: pointer;
+}
+/* line 581, classbook/sass/wallmodif.scss */
+.vertical_nav table {
+  clear: bloth;
+  margin-left: 57.143px;
+  padding: 5px 5px;
+  background: #fff;
+  width: 72%;
+}
+/* line 588, classbook/sass/wallmodif.scss */
+.vertical_nav table td {
+  text-align: left;
+  color: #0000;
+  overflow: hidden;
+  font-weight: normal;
+  padding: 5px 5px;
+  font-size: 12px;
+  line-height: 5px;
+}
+/* line 598, classbook/sass/wallmodif.scss */
+.vertical_nav table td:hover {
+  background: rgba(234, 234, 234, 0.9);
+}
+/* line 602, classbook/sass/wallmodif.scss */
+.vertical_nav table th {
+  background: none;
+  padding: 0px 0px;
+}
+/* line 607, classbook/sass/wallmodif.scss */
+.vertical_nav table i {
+  color: #B8860B;
+  font-size: 15px;
+}
+
+/* line 613, classbook/sass/wallmodif.scss */
+#notifications {
+  width: 30%;
+  height: 70%;
+  background-color: #fff;
+  position: fixed;
+  top: 41px;
+  right: 27%;
+  border: 1px solid rgba(203, 203, 203, 0.9);
+  display: none;
+}
+/* line 623, classbook/sass/wallmodif.scss */
+#notifications .notification_header {
+  text-align: left;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 11px;
+  border-bottom: 1px solid rgba(203, 203, 203, 0.9);
+}
+/* line 631, classbook/sass/wallmodif.scss */
+#notifications .notification_unit {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid rgba(203, 203, 203, 0.6);
+  width: 100%;
+}
+/* line 641, classbook/sass/wallmodif.scss */
+#notifications .notification_unit .image {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+/* line 649, classbook/sass/wallmodif.scss */
+#notifications .notification_unit .notify_text {
+  font-weight: normal;
+  font-size: 11px;
+}
+/* line 656, classbook/sass/wallmodif.scss */
+#notifications .notification_unit:hover {
+  background: #EDEFF4;
+}
+
+/* line 662, classbook/sass/wallmodif.scss */
+#notifications:before, #notifications:after {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  bottom: 100%;
+  position: absolute;
+  width: 0;
+  z-index: 2000;
+}
+
+/* line 673, classbook/sass/wallmodif.scss */
+#notifications:before {
+  border-width: 11px;
+  border-bottom-color: #fff;
+  right: 18.5%;
+}
+
+/* line 680, classbook/sass/wallmodif.scss */
+#notifications:after {
+  border: 8px solid transparent;
+  border-bottom-color: #fff;
+  right: 19%;
+}
+
+/* line 686, classbook/sass/wallmodif.scss */
+#messages {
+  width: 30%;
+  height: 70%;
+  background-color: #fff;
+  position: fixed;
+  top: 41px;
+  right: 34%;
+  border: 1px solid rgba(203, 203, 203, 0.9);
+  display: none;
+}
+/* line 696, classbook/sass/wallmodif.scss */
+#messages .message_header {
+  text-align: left;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 11px;
+  border-bottom: 1px solid rgba(203, 203, 203, 0.9);
+}
+/* line 704, classbook/sass/wallmodif.scss */
+#messages .message_unit {
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 11px;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid rgba(203, 203, 203, 0.6);
+  width: 100%;
+}
+/* line 714, classbook/sass/wallmodif.scss */
+#messages .message_unit .image {
+  width: 40px;
+  height: 40px;
+  float: left;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+/* line 722, classbook/sass/wallmodif.scss */
+#messages .message_unit .message_text {
+  font-weight: normal;
+  font-size: 11px;
+}
+/* line 729, classbook/sass/wallmodif.scss */
+#messages .message_unit:hover {
+  background: #EDEFF4;
+}
+
+/* line 733, classbook/sass/wallmodif.scss */
+#messages:before, #notifications:after {
+  border: solid transparent;
+  content: ' ';
+  height: 0;
+  bottom: 100%;
+  position: absolute;
+  width: 0;
+  z-index: 2000;
+}
+
+/* line 744, classbook/sass/wallmodif.scss */
+#messages:before {
+  border-width: 11px;
+  border-bottom-color: #fff;
+  right: 18.5%;
+}
+
+/* line 751, classbook/sass/wallmodif.scss */
+#messages:after {
+  border: 8px solid transparent;
+  border-bottom-color: #fff;
+  right: 19%;
+}
